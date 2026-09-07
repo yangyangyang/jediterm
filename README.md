@@ -36,10 +36,6 @@ Gradle is used to build this project. The project consists of 4 sub-projects:
 
     The core library that provides VT100 compatible terminal emulator and Java Swing based implementation of terminal panel UI.
 
-* **ssh**
-
-    The jediterm-ssh.jar library that provides, using the Jsch library, a terminal for remote SSH terminal sessions.
-
 * **pty**
 
     The jediterm-pty.jar library that, by using the [Pty4J](https://github.com/traff/pty4j) library, enables a terminal for local PTY terminal sessions.
@@ -51,7 +47,6 @@ Gradle is used to build this project. The project consists of 4 sub-projects:
 
 Features
 --------
-* Ssh using JSch from jcraft.org
 * Local terminal for Unix, Mac and Windows using [Pty4J](https://github.com/traff/pty4j)
 * Xterm emulation - passes most of tests from vttest
 * Xterm 256 colours
@@ -98,6 +93,5 @@ Standalone distribution relies heavily on customized Swing UI widgets taken from
 
 Licenses
 -------
-All sources in the repository are licensed under LGPLv3, except the following roots, which are Apache 2.0 licensed:
-* JediTerm/*
-* terminal/src/com/jediterm/terminal/emulator/*
+JediTerm is dual-licensed under both the LGPLv3 (found in the LICENSE-LGPLv3.txt file in the root directory) and Apache 2.0 License (found in the LICENSE-APACHE-2.0.txt file in the root directory). 
+You may select, at your option, one of the above-listed licenses.
